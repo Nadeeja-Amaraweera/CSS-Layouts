@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    background: lightgrey;
+    margin-bottom: 30px;
+    height: 100px;
+}
+.box{
+    width: 80px;
+    height: 80px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 80px;
+    font-size: 20px;
+}
+.start{
+    justify-content: flex-start;
+}
+
+.center{
+    justify-content: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.space-evenly{
+    justify-content: space-evenly;
+}
